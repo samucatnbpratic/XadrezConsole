@@ -9,8 +9,16 @@ namespace Jogos.XadrezConsole.Tabuleiro
         public Posicao Posicao { get; set; }
         public Cor Cor { get; set; }
         public int QteMovimentos { get; set; }
-        public Tabuleiro Tab { get; set; }
+        public TabuleiroX Tab { get; set; }
 
-        public Peca(Posicao posicao, )
+        public Peca(TabuleiroX tab, Cor cor)
+        {
+            this.Posicao = null;
+            this.Tab = tab;
+            this.Cor = cor;
+            this.QteMovimentos = 0;
+        }
+
+  
     }
 }
