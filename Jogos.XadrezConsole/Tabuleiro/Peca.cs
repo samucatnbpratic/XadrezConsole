@@ -19,6 +19,10 @@ namespace Jogos.XadrezConsole.Tabuleiro
             this.QteMovimentos = 0;
         }
 
+        public void IncrementarQteMovimentos()
+        {
+            QteMovimentos++;
+        }
   
     }
 }

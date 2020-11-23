@@ -17,8 +17,10 @@ namespace Jogos.XadrezConsole
                     if (tab.Peca(i, j) == null)
                         Console.Write("- ");
                     else
+                    {
                         ImprimirPeca(tab.Peca(i, j));
                         Console.Write(" ");
+                    }
                 }
                 Console.WriteLine();
             }
